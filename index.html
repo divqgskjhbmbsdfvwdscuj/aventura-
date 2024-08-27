@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Cavaleiro Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://img.odcdn.com.br/cdn-cgi/image/width=1280,height=720,fit=cover/wp-content/uploads/2024/03/artefato-antigo-1.png" alt="">
+            <p>Em um antigo pergaminho encontrado na biblioteca do castelo, você descobre a lenda de um artefato perdido, oculto em um reino distante e <br>cheio de mistérios. O pergaminho contém pistas para encontrar o artefato, e você decide seguir essa jornada.</p>
+            <button class="btn-proximo" data-proximo="1">Montanha de Eldoria</button>
+            <button class="btn-proximo" data-proximo="2">Floresta de Sylvan</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="https://b2432631.smushcdn.com/2432631/wp-content/uploads/2024/01/foto-paisagem-montanha-862x493.jpg?lossy=1&strip=1&webp=1" alt="">
+            <p>Você começa sua busca na Montanha de Eldoria, ascendendo até o topo ao amanhecer para buscar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no cume da montanha</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e retornar ao castelo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="https://img.freepik.com/fotos-premium/casas-de-vilarejo-na-floresta-com-nevoeiro-e-neve-no-alto-das-montanhas_174699-548.jpg" alt="">
+            <p>Na Floresta de Sylvan, você visita um antigo vilarejo. O pergaminho sugere que para encontrar a entrada para o esconderijo do artefato, você deve investigar um dos locais históricos do vilarejo. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar a torre antiga</button>
+            <button class="btn-proximo" data-proximo="6">Buscar na clareira mágica</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="https://img.freepik.com/fotos-premium/uma-paisagem-de-fantasia-com-um-monstro-com-uma-montanha-ao-fundo_871710-159.jpg" alt="">
+            <p>No cume da Montanha de Eldoria, você encontra uma pedra ancestral com uma inscrição que revela que a próxima pista está na Floresta de Sylvan.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Floresta de Sylvan</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="https://www.showmetech.com.br/wp-content/uploads//2018/01/322370-jpg-webp-1920x1024.webp" alt="imagem retornando ao castelo e desistindo da jornada">
+            <p>Você decide que a busca é arriscada demais e retorna ao castelo, sempre se perguntando sobre o que teria encontrado se tivesse continuado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2013/05/29/manuscrito-tora-mais-antigo-afp1.jpg" alt="">
+            <p>Na torre antiga de Sylvan, você encontra um manuscrito antigo escondido em um compartimento secreto, revelando que a próxima pista está na Floresta de Sylvan.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Floresta de Sylvan</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="https://rota-serra-gaucha.s3.sa-east-1.amazonaws.com/images/iLr2qwXdWETdGVXtnxFRhZZcMMskMSUzAHbK8CKm.png" alt="">
+            <p>Na clareira mágica, você encontra uma fonte encantada, mas ela não fornece nenhuma pista relevante para sua busca.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a torre antiga</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKEQzq_vnvQxbNramrDvzs5ReY0vr_bGN0bg&s" alt="">
+            <p>Na Floresta de Sylvan, a busca pelo artefato continua. Você se depara com um rio que se divide em dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o caminho do rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir o caminho do rio à direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="https://img.freepik.com/fotos-gratis/torre-branca-de-thessaloniki-com-nuvens-na-grecia_1268-16087.jpg" alt="">
+            <p>De volta à torre antiga, você finalmente encontra o manuscrito antigo. Agora, siga para a Floresta de Sylvan!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Floresta de Sylvan</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="https://www.joanopol.instarswe.com.br/imgeditor/Cachoeira-Escondida-Caio-Buni-Prefeitura-de-Joan%C3%B3polis-008--1024x682.jpg" alt="">
+            <p>O caminho do rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada para o esconderijo do artefato.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o esconderijo</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="https://img.freepik.com/fotos-gratis/floresta-de-aokigahara-em-estilo-altamente-detalhado_23-2151570317.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721865600&semt=ais_user" alt="">
+            <p>O caminho do rio à direita leva a um pântano encantado. Embora a paisagem seja bela, não há sinais do esconderijo do artefato.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho do rio</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="https://st.depositphotos.com/29940928/53935/i/450/depositphotos_539357782-stock-photo-old-library-energy-preload-complete.jpg" alt="encontrando o esconderijo do artefato na Floresta de Sylvan">
+            <p>Dentro do esconderijo, você descobre o artefato perdido, um item de poder imenso. Você decide guardá-lo e proteger o reino com seu novo achado.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="https://www.joanopol.instarswe.com.br/imgeditor/Cachoeira-Escondida-Caio-Buni-Prefeitura-de-Joan%C3%B3polis-008--1024x682.jpg" alt="">
+            <p>Retornando e escolhendo o caminho do rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições que levam ao esconderijo do artefato.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o esconderijo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
